@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rich Corp | Digital Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-content">
+        <a href="#" class="navbar-logo">
+          RC<span class="accent">.</span>
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="navbar-menu desktop-menu">
+          <a href="#services" class="nav-link">
+            <span class="nav-link-accent">&gt;</span>Услуги
+          </a>
+          <a href="#contact" class="nav-link">
+            <span class="nav-link-accent">&gt;</span>Контакты
+          </a>
+          <a href="#contact" class="nav-cta">Связаться</a>
+        </div>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Меню">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+        <a href="#services" class="mobile-menu-link">Услуги</a>
+        <a href="#contact" class="mobile-menu-link">Контакты</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <!-- Background Grid -->
+        <div class="hero-grid"></div>
+
+        <!-- Main Content -->
+        <div class="hero-content">
+          <div class="hero-logo-wrapper fade-in">
+            <!-- Glow Effect -->
+            <div class="hero-logo-glow"></div>
+            
+            <!-- Logo Container -->
+            <div class="hero-logo">
+              <div class="hero-logo-gradient"></div>
+              <h1 class="hero-logo-text">
+                Rc<span class="accent">.</span>
+              </h1>
+            </div>
+          </div>
+
+          <div class="hero-subtitle fade-in-delay">
+            <div class="hero-subtitle-line">
+              <div class="hero-divider"></div>
+              <h2 class="hero-title">Rich Corp</h2>
+              <div class="hero-divider"></div>
+            </div>
+            <p class="hero-description">Архитекторы цифровой реальности</p>
+          </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator fade-in-slow">
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services" id="services">
+        <div class="services-content">
+          <div class="section-header">
+            <h2 class="section-title"><span class="accent">/</span> УСЛУГИ</h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+              <div class="service-glow"></div>
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <h3 class="service-title">Экосистема Laravel</h3>
+              <p class="service-description">Бэкенд-архитектура корпоративного уровня на Laravel. Масштабируемость, безопасность и высокая производительность.</p>
+              <div class="service-tags">
+                <span class="tag">PHP</span>
+                <span class="tag">Laravel</span>
+                <span class="tag">Livewire</span>
+                <span class="tag">Filament</span>
+              </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card">
+              <div class="service-glow"></div>
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/>
+                </svg>
+              </div>
+              <h3 class="service-title">Внедрение Bitrix24</h3>
+              <p class="service-description">Полная цифровая трансформация с Bitrix24. Кастомные процессы, настройка CRM и интранет-решений.</p>
+              <div class="service-tags">
+                <span class="tag">CRM</span>
+                <span class="tag">Automation</span>
+                <span class="tag">Enterprise</span>
+              </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card">
+              <div class="service-glow"></div>
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                </svg>
+              </div>
+              <h3 class="service-title">Кастомная Разработка</h3>
+              <p class="service-description">Индивидуальные программные решения для сложных бизнес-задач. Мы создаем то, чего нет в готовых продуктах.</p>
+              <div class="service-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Python</span>
+              </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card">
+              <div class="service-glow"></div>
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <h3 class="service-title">Мобильные Приложения</h3>
+              <p class="service-description">Нативные и кроссплатформенные мобильные приложения, работающие плавно на любом устройстве.</p>
+              <div class="service-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">iOS</span>
+                <span class="tag">Android</span>
+              </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="service-card">
+              <div class="service-glow"></div>
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <h3 class="service-title">DevOps и Инфраструктура</h3>
+              <p class="service-description">Надежные CI/CD пайплайны, контейнеризация и управление облачной инфраструктурой.</p>
+              <div class="service-tags">
+                <span class="tag">Docker</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Kubernetes</span>
+              </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="service-card">
+              <div class="service-glow"></div>
+              <div class="service-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <h3 class="service-title">Продуктовый Дизайн</h3>
+              <p class="service-description">UI/UX дизайн, ориентированный на пользователя. Соединяем сложный функционал с интуитивным интерфейсом.</p>
+              <div class="service-tags">
+                <span class="tag">Figma</span>
+                <span class="tag">Prototyping</span>
+                <span class="tag">Design Systems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="contact-content">
+          <div class="contact-header">
+            <h2 class="contact-title">Установить <span class="accent">Соединение</span></h2>
+            <p class="contact-description">Готовы построить что-то надежное? Отправьте нам запрос.</p>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Идентификатор (Имя)</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Иван Иванов" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Частота (Email)</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="ivan@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Пейлоад (Сообщение)</label>
+              <textarea id="message" name="message" rows="6" class="form-textarea" placeholder="Опишите параметры вашего проекта..." required></textarea>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="submit-btn">
+                <span>Запустить</span>
+                <svg class="submit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">RICH CORP<span class="accent">_</span></div>
+          <p class="footer-copyright">© <span id="currentYear"></span> Rich Corp. Все системы работают штатно.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#" class="footer-link">Twitter</a>
+          <a href="#" class="footer-link">GitHub</a>
+          <a href="#" class="footer-link">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
